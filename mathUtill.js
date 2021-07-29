@@ -2,12 +2,17 @@
 const PI = 3.14
 const getCircleArea = r => r*r *PI
 
+export {
+    PI,
+    getCircleArea
+}
+
 // module.exports = {
 //     PI,
 //     getCircleArea
 // }
 
-exports.PI = PI
+// exports.PI = PI
 
-exports.getCircleArea = getCircleArea
+// exports.getCircleArea = getCircleArea
 
